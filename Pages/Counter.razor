@@ -1,0 +1,86 @@
+﻿@page "/registro"
+
+<PageTitle>Registro de notas</PageTitle>
+
+@using PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Data
+
+
+
+
+
+<h3>Lista de estudiantes</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Nota 3</th>
+            <th>Promedio</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var estudiante in Estudiantes)
+        {
+            <tr>
+                <td>@estudiante.Id</td>
+                <td>@estudiante.Nombre</td>
+                <td>@estudiante.Nota1</td>
+                <td>@estudiante.Nota2</td>
+                <td>@estudiante.Nota3</td>
+                <td>@estudiante.Promedio</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<h3>Agregar estudiante</h3>
+<form>
+    <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" class="form-control" id="nombre" @bind-value="NuevoEstudiante.Nombre" />
+    </div>
+    <div class="form-group">
+        <label for="nota1">Nota 1:</label>
+        <input type="number" class="form-control" id="nota1" @bind-value="NuevoEstudiante.Nota1" />
+    </div>
+    <div class="form-group">
+        <label for="nota2">Nota 2:</label>
+        <input type="number" class="form-control" id="nota2" @bind-value="NuevoEstudiante.Nota2" />
+    </div>
+    <div class="form-group">
+        <label for="nota3">Nota 3:</label>
+        <input type="number" class="form-control" id="nota3" @bind-value="NuevoEstudiante.Nota3" />
+    </div>
+    <button type="button" class="btn btn-primary" @onclick="AgregarEstudiante">Agregar</button>
+</form>
+
+@code {
+
+
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+     [Inject]
+    private EstudianteService EstudiantesService { get; set; }
+    private Estudiante NuevoEstudiante { get; set; } = new Estudiante();
+    private IEnumerable<Estudiante> Estudiantes { get; set; }
+        
+
+    protected override async Task OnInitializedAsync()
+    {
+        Estudiantes = await EstudiantesService.ObtenerEstudiantesAsync();
+    }
+        private async Task AgregarEstudiante()
+    {
+        await EstudiantesService.AgregarEstudianteAsync(NuevoEstudiante);
+        Estudiantes = await EstudiantesService.ObtenerEstudiantesAsync();
+        NuevoEstudiante = new Estudiante();
+    }
+}

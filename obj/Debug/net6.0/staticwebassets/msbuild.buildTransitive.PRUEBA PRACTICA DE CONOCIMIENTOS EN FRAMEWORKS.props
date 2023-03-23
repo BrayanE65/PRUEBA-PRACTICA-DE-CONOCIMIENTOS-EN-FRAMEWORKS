@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\PRUEBA PRACTICA DE CONOCIMIENTOS EN FRAMEWORKS.props" />
+</Project>
