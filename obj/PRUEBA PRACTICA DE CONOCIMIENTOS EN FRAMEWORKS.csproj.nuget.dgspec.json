@@ -60,6 +60,14 @@
               "target": "Package",
               "version": "[1.1.0, )"
             },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Common": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Analyzers": {
               "target": "Package",
               "version": "[6.0.11, )"

@@ -1,0 +1,24 @@
+@page "/Messages"
+@using Microsoft.AspNetCore.SignalR.Client
+@inject HubConnection HubConnection
+
+<button @onclick="EnviarMensaje">Enviar mensaje</button>
+
+@code {
+    private string _mensaje;
+
+    private async Task EnviarMensaje()
+    {
+        await HubConnection.SendAsync("EnviarMensaje", _mensaje);
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        HubConnection.On<string>("RecibirMensaje", mensaje =>
+        {
+
+        });
+
+        await HubConnection.StartAsync();
+    }
+} 
