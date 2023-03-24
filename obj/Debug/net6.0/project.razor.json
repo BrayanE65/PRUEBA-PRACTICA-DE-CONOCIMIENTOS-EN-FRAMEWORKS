@@ -13,6 +13,43 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 373672590,
+        "Kind": "Components.Component",
+        "Name": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Pages.Registro",
+        "AssemblyName": "PRUEBA PRACTICA DE CONOCIMIENTOS EN FRAMEWORKS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Registro"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Pages.Registro",
+          "Common.TypeNamespace": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Pages",
+          "Common.TypeNameIdentifier": "Registro"
+        }
+      },
+      {
+        "HashCode": 1223549279,
+        "Kind": "Components.Component",
+        "Name": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Pages.Registro",
+        "AssemblyName": "PRUEBA PRACTICA DE CONOCIMIENTOS EN FRAMEWORKS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Pages.Registro"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Pages.Registro",
+          "Common.TypeNamespace": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Pages",
+          "Common.TypeNameIdentifier": "Registro",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -2133892032,
         "Kind": "Components.Component",
         "Name": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Pages.FetchData",
@@ -46,43 +83,6 @@
           "Common.TypeName": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Pages.FetchData",
           "Common.TypeNamespace": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Pages",
           "Common.TypeNameIdentifier": "FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1070574772,
-        "Kind": "Components.Component",
-        "Name": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Pages.Counter",
-        "AssemblyName": "PRUEBA PRACTICA DE CONOCIMIENTOS EN FRAMEWORKS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Pages.Counter",
-          "Common.TypeNamespace": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Pages",
-          "Common.TypeNameIdentifier": "Counter"
-        }
-      },
-      {
-        "HashCode": 974541193,
-        "Kind": "Components.Component",
-        "Name": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Pages.Counter",
-        "AssemblyName": "PRUEBA PRACTICA DE CONOCIMIENTOS EN FRAMEWORKS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Pages.Counter",
-          "Common.TypeNamespace": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Pages",
-          "Common.TypeNameIdentifier": "Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -157,6 +157,43 @@
           "Common.TypeName": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.App",
           "Common.TypeNamespace": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS",
           "Common.TypeNameIdentifier": "App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 531488525,
+        "Kind": "Components.Component",
+        "Name": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Shared.NavMenu",
+        "AssemblyName": "PRUEBA PRACTICA DE CONOCIMIENTOS EN FRAMEWORKS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Shared.NavMenu",
+          "Common.TypeNamespace": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Shared",
+          "Common.TypeNameIdentifier": "NavMenu"
+        }
+      },
+      {
+        "HashCode": -270679510,
+        "Kind": "Components.Component",
+        "Name": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Shared.NavMenu",
+        "AssemblyName": "PRUEBA PRACTICA DE CONOCIMIENTOS EN FRAMEWORKS",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Shared.NavMenu",
+          "Common.TypeNamespace": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Shared",
+          "Common.TypeNameIdentifier": "NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -322,43 +359,6 @@
           "Common.TypeNamespace": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Shared",
           "Common.TypeNameIdentifier": "MainLayout",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 531488525,
-        "Kind": "Components.Component",
-        "Name": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Shared.NavMenu",
-        "AssemblyName": "PRUEBA PRACTICA DE CONOCIMIENTOS EN FRAMEWORKS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Shared.NavMenu",
-          "Common.TypeNamespace": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Shared",
-          "Common.TypeNameIdentifier": "NavMenu"
-        }
-      },
-      {
-        "HashCode": -270679510,
-        "Kind": "Components.Component",
-        "Name": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Shared.NavMenu",
-        "AssemblyName": "PRUEBA PRACTICA DE CONOCIMIENTOS EN FRAMEWORKS",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Shared.NavMenu",
-          "Common.TypeNamespace": "PRUEBA_PRACTICA_DE_CONOCIMIENTOS_EN_FRAMEWORKS.Shared",
-          "Common.TypeNameIdentifier": "NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -18801,8 +18801,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\BrayanE65\\Documents\\GitHub\\PRUEBA-PRACTICA-DE-CONOCIMIENTOS-EN-FRAMEWORKS\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
+      "FilePath": "c:\\Users\\BrayanE65\\Documents\\GitHub\\PRUEBA-PRACTICA-DE-CONOCIMIENTOS-EN-FRAMEWORKS\\Pages\\Registro.razor",
+      "TargetPath": "Pages\\Registro.razor",
       "FileKind": "component"
     },
     {

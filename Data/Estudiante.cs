@@ -8,7 +8,7 @@ public class Estudiante {
 
     [Key]
     public int Id { get; set; }
-    public string? Nombre { get; set; }
+    public string Nombre { get; set; }
     public int Nota1 { get; set; }
     public int Nota2 { get; set; }
     public int Nota3 { get; set; }

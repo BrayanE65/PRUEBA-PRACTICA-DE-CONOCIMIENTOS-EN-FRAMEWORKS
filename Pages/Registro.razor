@@ -8,6 +8,7 @@
 
 
 
+
 <h3>Lista de estudiantes</h3>
 <table class="table">
     <thead>
@@ -60,12 +61,6 @@
 @code {
 
 
-    private int currentCount = 0;
-
-    private void IncrementCount()
-    {
-        currentCount++;
-    }
 
      [Inject]
     private EstudianteService EstudiantesService { get; set; }
@@ -80,7 +75,6 @@
         private async Task AgregarEstudiante()
     {
         await EstudiantesService.AgregarEstudianteAsync(NuevoEstudiante);
-        Estudiantes = await EstudiantesService.ObtenerEstudiantesAsync();
         NuevoEstudiante = new Estudiante();
     }
 }
